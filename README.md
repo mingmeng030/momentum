@@ -1,1 +1,3 @@
-#Google Chrome App Momentum 만들기
+# First VanillaJS Toy Project
+# Google Chrome App Momentum Clone Coding
+
