@@ -1,0 +1,8 @@
+body{
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.hidden{
+    display : none;
+}
