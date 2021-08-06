@@ -49,7 +49,7 @@ const author = document.querySelector("#quote span:last-child");
 const todaysQuote=quotes[Math.floor(Math.random()*quotes.length)];
 
 quote.innerText=todaysQuote.quote;
-author.innerText=todaysQuote.author;
+author.innerText=`- ${todaysQuote.author}`;
 
 /*
 Math.random*n : 0부터 n-1까지의 수 중 랜덤하게 return

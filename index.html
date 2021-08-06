@@ -16,16 +16,24 @@
 
     <h2 id="clock"> 00:00:00</h2>
     <h1 class="hidden" id="greeting"></h1>
-    <br>
 
     <form id="todo-form">
         <input required type="text" placeholder="Write a To Do and Press Enter.">
     </form>
 
     <!--js로 리스트를 추가할 부분-->
-    <ul id="todo-list"></ul>
+    <div class="scroll">
+        <div class="scrollBlind">
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
 
     <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id=weather>
         <span></span>
         <span></span>
     </div>
@@ -35,7 +43,6 @@
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
-
-
+    <script src="js/weather.js"></script>
 </body>
 </html>

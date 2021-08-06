@@ -1,6 +1,10 @@
 const toDoForm = document.getElementById("todo-form");
-const toDoList = document.getElementById("todo-list");
+const toDoList = document.querySelector(".scrollBlind #todo-list");
 const toDoInput = toDoForm.querySelector("input");
+
+// {/* <div class="scroll">
+// <ul id="todo-list"></ul>
+// </div> */}
 
 let toDos=[];
 const TODOS_KEY = "todos";
