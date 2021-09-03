@@ -40,8 +40,8 @@ img {
 }
 
 #login-form {
-    position: absolute;
-    left: 50%;
+    position : absolute;
+    left: 50vw;
     top: 25vh;
     transform: translate(-50%);
     color: #fff;
@@ -51,28 +51,29 @@ img {
 
 #login-form input {
     position: relative;
-    left: 50%;
+    left: 38%;
     transform: translate(-50%);
-    color: #000;
     border: none;
-    font-size: 20px;
-    padding: 10px 0;
+    padding: 10px;
     border-radius: 8px;
-    width: 400px;
+    width: 280px;
+    font-size: 20px;
+    color: #000;
     background-color: #ffffffa8;
 }
 
 #login-form button {
-    position: absolute;
-    left: 115%;
+    position: relative;
+    margin-left : 5px;
+    left: 10%;
     top: 23%;
     transform: translate(-50%);
-    color: #000;
     border: none;
-    font-size: 20px;
-    padding: 10px 0;
     border-radius: 8px;
-    width: 100px;
+    width: 90px;
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
     background-color: #ffffffa8;
 }
 
